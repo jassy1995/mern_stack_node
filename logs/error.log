@@ -1,0 +1,88 @@
+{ time: [34m12-03-2022 18:39:54[39m level: [31merror[39m message: Cannot read property 'id' of undefinedCannot read property 'id' of undefined stack: TypeError: Cannot read property 'id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:41:14[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:43:02[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:43:51[39m level: [31merror[39m message: erro is not definederro is not defined stack: ReferenceError: erro is not defined
+    at exports.loginUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:23:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:47:12[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:51:09[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 18:51:46[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
+    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
+{ time: [34m12-03-2022 21:50:58[39m level: [31merror[39m message: Cannot read property 'id' of undefinedCannot read property 'id' of undefined stack: TypeError: Cannot read property 'id' of undefined
+    at exports.getMessage (C:\MOSH\NODEJS\project\controllers\admin.controller.js:4:35)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
+    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
