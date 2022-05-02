@@ -2970,3 +2970,47 @@ MongoNetworkError: connect ETIMEDOUT 34.232.94.93:27017
 Error: querySrv ECONNREFUSED _mongodb._tcp.mypost.ybo5b.mongodb.net
     at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19) stack: Error: querySrv ECONNREFUSED _mongodb._tcp.mypost.ybo5b.mongodb.net
     at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19) }
+{ time: [34m02-05-2022 18:10:58[39m level: [31merror[39m message: uncaughtException: authentication is not defined
+ReferenceError: authentication is not defined
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:6:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) stack: ReferenceError: authentication is not defined
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:6:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) }
+{ time: [34m02-05-2022 18:22:08[39m level: [31merror[39m message: uncaughtException: authentication is not defined
+ReferenceError: authentication is not defined
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:6:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) stack: ReferenceError: authentication is not defined
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:6:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) }

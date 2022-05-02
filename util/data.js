@@ -1,9 +1,9 @@
 exports.data = {
   products: [
     {
-      _id: 1,
       name: "Nike Slim Shirt",
       category: "Shirts",
+      slug: "nike Slim Pant",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/60f549e4fb792d32617b1579_Group%202.png",
       price: 120,
@@ -15,8 +15,8 @@ exports.data = {
       count: 1,
     },
     {
-      _id: 2,
       name: "Adidas Fit Shirt",
+      slug: "adidas Fit Shirt",
       category: "Shirts",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/5fd8bb6068e3972a69580cf1_f5_0008_Toccin%2013.jpg",
@@ -29,8 +29,8 @@ exports.data = {
       count: 3,
     },
     {
-      _id: 3,
       name: "Lacoste Free Shirt",
+      slug: "lacoste Free Shirt",
       category: "Shirts",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/60ab6ebee8e3aeb0600e4cb9_1.jpg",
@@ -43,8 +43,8 @@ exports.data = {
       count: 0,
     },
     {
-      _id: 4,
       name: "Nike Slim Pant",
+      slug: "nike Slim Pant 2",
       category: "Pants",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/60b0ee6dba22e0439fc5bffb_7.jpg",
@@ -57,8 +57,8 @@ exports.data = {
       count: 4,
     },
     {
-      _id: 5,
       name: "Puma Slim Pant",
+      slug: "puma Slim Pant",
       category: "Pants",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/6141e804158596d5aba69000_Group%2027.jpg",
@@ -71,8 +71,8 @@ exports.data = {
       count: 2,
     },
     {
-      _id: 6,
       name: "Adidas Fit Pant",
+      slug: "adidas Fit Pant ",
       category: "Pants",
       image:
         "https://global-uploads.webflow.com/5d556af3fe21d65f602dca94/6080245c5f493dd3d6c892c2_6.jpg",
