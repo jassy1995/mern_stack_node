@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const productRoute = require("../routes/product.route");
 const userRoute = require("../routes/user.route");
+const orderRoute = require("../routes/order.route");
 const error = require("../middleware/error");
 
 module.exports = function (app) {
@@ -11,5 +12,6 @@ module.exports = function (app) {
   app.use(express.json());
   app.use("/api/products", productRoute);
   app.use("/api/users", userRoute);
+  app.use("/api/orders", orderRoute);
   app.use(error);
 };

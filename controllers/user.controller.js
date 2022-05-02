@@ -3,12 +3,14 @@ const bcrypt = require("bcryptjs");
 const { generateToken } = require("../util/scripts/jwt");
 
 exports.createUser = async (req, res, next) => {
+  console.log(req.body);
   const newUser = new User({
     name: req.body.name,
     email: req.body.email,
     password: bcrypt.hashSync(req.body.password),
   });
   const user = await newUser.save();
+  console.log(user);
   return res.send({
     _id: user._id,
     name: user.name,
