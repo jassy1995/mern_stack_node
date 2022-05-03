@@ -3184,3 +3184,257 @@ Require stack:
     at Module.load (internal/modules/cjs/loader.js:928:32)
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
     at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 00:21:05[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 00:21:18[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 00:24:00[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 00:24:38[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 07:49:58[39m level: [31merror[39m message: uncaughtException: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) stack: Error: Cannot find module '../controllers/route.controller'
+Require stack:
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js
+- C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19) }
+{ time: [34m03-05-2022 09:18:27[39m level: [31merror[39m message: uncaughtException: app.user is not a function
+TypeError: app.user is not a function
+    at module.exports (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:14:7)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js:8:35)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 stack: TypeError: app.user is not a function
+    at module.exports (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:14:7)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\index.js:8:35)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 }
+{ time: [34m03-05-2022 12:01:08[39m level: [31merror[39m message: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:6:20) stack: Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:6:20) }
+{ time: [34m03-05-2022 12:01:24[39m level: [31merror[39m message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:6:20) stack: Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\order.route.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:6:20) }
+{ time: [34m03-05-2022 12:20:08[39m level: [31merror[39m message: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\user.route.js:8:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:5:19) stack: Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\user.route.js:8:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:5:19) }
