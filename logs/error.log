@@ -154,3 +154,4 @@
     at model.Query.exec (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4650:21)
     at model.Query.Query.then (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4749:15)
     at processTicksAndRejections (internal/process/task_queues.js:93:5) }
+{ time: [34m03-05-2022 13:27:57[39m level: [31merror[39m message: ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html'ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html' stack: Error: ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html' }
