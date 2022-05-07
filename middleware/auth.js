@@ -1,35 +1,5 @@
 require("dotenv").config();
-const keys = process.env.OTP;
 const jwt = require("jsonwebtoken");
-exports.authentication = (req, res, next) => {
-  const token = req.headers["x-access-token"];
-  if (!token) {
-    return res.json({
-      message: "A token is required for authentication",
-      status: false,
-    });
-  } else {
-    const decoded = jwt.verify(token, keys);
-    if (decoded) {
-      req.user = decoded;
-      next();
-    } else {
-      return res.json({ message: "Invalid Token", status: false });
-    }
-  }
-};
-
-exports.authorization = (req, res, next) => {
-  if (req.user.role !== "admin") {
-    return res.json({
-      message: "Access denied! You are restricted to this action",
-      status: false,
-    });
-  }
-  next();
-  return;
-};
-
 exports.isAuth = (req, res, next) => {
   const authorization = req.headers.authorization;
   if (authorization) {
@@ -44,5 +14,13 @@ exports.isAuth = (req, res, next) => {
     });
   } else {
     return res.status(401).send({ message: "Token is required" });
+  }
+};
+
+exports.isAdmin = (req, res, next) => {
+  if (req.user && req.user.isAdmin) {
+    next();
+  } else {
+    res.status(401).send({ message: "Invalid Admin Token" });
   }
 };

@@ -12,6 +12,7 @@ const productSchema = new mongoose.Schema(
     count: { type: Number, required: true },
     rating: { type: Number, required: true },
     numReviews: { type: Number, required: true },
+    image_id: { type: String, required: true },
   },
   {
     timestamps: true,
