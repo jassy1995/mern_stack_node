@@ -1,10 +1,17 @@
+require("dotenv").config();
 const Product = require("../models/product.model");
 const cloudinary = require("../util/cloudinary");
+const algoliasearch = require("algoliasearch");
+const client = algoliasearch(
+  process.env.ALGOLIA_APPLICATION_ID,
+  process.env.ALGOLIA_ADMIN_API_KEY
+);
+const angoliaIndex = client.initIndex("products");
+
 const PAGE_SIZE = 10;
 
 exports.createProduct = async (req, res, next) => {
-  console.log(req.body);
-  const result = await cloudinary.uploader.upload(req.file.path, {
+  const result = await cloudinary.uploader.upload(req.file?.path, {
     folder: "product_images",
   });
   const newProduct = new Product({
@@ -21,6 +28,21 @@ exports.createProduct = async (req, res, next) => {
     image_id: result.public_id,
   });
   const product = await newProduct.save();
+
+  await angoliaIndex.saveObject({
+    _id: product._id,
+    name: product.name,
+    slug: product.slug,
+    description: product.description,
+    rating: product.rating,
+    numReviews: product.numReviews,
+    image: product.image,
+    price: product.price,
+    category: product.category,
+    brand: product.brand,
+    count: product.count,
+    objectID: product._id,
+  });
   return res.send({ message: "Product Created", product });
 };
 exports.allProduct = async (req, res, next) => {
@@ -145,4 +167,51 @@ exports.getAdminProduct = async (req, res, next) => {
     page,
     pages: Math.ceil(countProducts / pageSize),
   });
+};
+
+exports.updateProduct = async (req, res, next) => {
+  const productId = req.params.id;
+  const product = await Product.findById(productId);
+  let imageUrl = "";
+  let imageId = "";
+  if (req.file?.path) {
+    await cloudinary.uploader.destroy(product.image_id);
+    const result = await cloudinary.uploader.upload(req.file?.path, {
+      folder: "product_images",
+    });
+    imageUrl = result.secure_url;
+    imageId = result.public_id;
+  }
+
+  if (product) {
+    product.name = req.body.name || product.name;
+    product.slug = req.body.slug || product.slug;
+    product.price = req.body.price || product.price;
+    product.image = req.body.image || product.image;
+    product.category = req.body.category || product.category;
+    product.brand = req.body.brand || product.brand;
+    product.countInStock = req.body.count || product.count;
+    product.description = req.body.description || product.description;
+    product.image = imageUrl || product.image;
+    product.image_id = imageId || product.image_id;
+
+    await angoliaIndex.partialUpdateObject({
+      name: product.name,
+      slug: product.slug,
+      description: product.description,
+      rating: product.rating,
+      numReviews: product.numReviews,
+      image: product.image,
+      price: product.price,
+      category: product.category,
+      brand: product.brand,
+      count: product.count,
+      objectID: product._id,
+    });
+
+    await product.save();
+    res.send({ message: "Product Updated" });
+  } else {
+    res.status(404).send({ message: "Product Not Found" });
+  }
 };

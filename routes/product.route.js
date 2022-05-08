@@ -15,6 +15,12 @@ router.get("/admin", [isAuth, isAdmin], controller.getAdminProduct);
 router.get("/search", controller.filterProduct);
 router.get("/categories", controller.productByCategory);
 router.get("/slug/:slug", controller.productBySlug);
+router.put(
+  "/:id",
+  [isAuth, isAdmin],
+  upload.single("image"),
+  controller.updateProduct
+);
 router.get("/:id", controller.productById);
 
 module.exports = router;

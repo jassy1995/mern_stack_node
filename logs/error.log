@@ -318,3 +318,24 @@
     at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
     at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
     at IncomingMessage.emit (events.js:327:22) }
+{ time: [34m07-05-2022 20:28:34[39m level: [31merror[39m message: index.addObject is not a functionindex.addObject is not a function stack: TypeError: index.addObject is not a function
+    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:31:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
+{ time: [34m07-05-2022 20:32:52[39m level: [31merror[39m message: index.addObject is not a functionindex.addObject is not a function stack: TypeError: index.addObject is not a function
+    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:32:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
+{ time: [34m07-05-2022 20:38:56[39m level: [31merror[39m message: All objects must have an unique objectID (like a primary key) to be valid. Algolia is also able to generate objectIDs automatically but *it's not recommended*. To do it, use the `{'autoGenerateObjectIDIfNotExist': true}` option. stack: undefined }
+{ time: [34m08-05-2022 09:43:02[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
+    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:14:60)
+    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
+    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
+    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:327:22) }
+{ time: [34m08-05-2022 10:10:11[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }
+{ time: [34m08-05-2022 10:12:25[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }
+{ time: [34m08-05-2022 10:14:25[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }

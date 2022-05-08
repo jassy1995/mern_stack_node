@@ -3614,3 +3614,55 @@ Error: Route.post() requires a callback function but got a [object Undefined]
     at Module.require (internal/modules/cjs/loader.js:952:19)
     at require (internal/modules/cjs/helpers.js:88:18)
     at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:5:22) }
+{ time: [34m07-05-2022 20:20:40[39m level: [31merror[39m message: uncaughtException: Unexpected token '.'
+C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:31
+  await index.addObject({_id:product._id, name:product.name, slug:product.slug, description: product.description, product.rating, numReviews: product.numReviews, image: product.image});
+                                                                                                                         ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) stack: C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:31
+  await index.addObject({_id:product._id, name:product.name, slug:product.slug, description: product.description, product.rating, numReviews: product.numReviews, image: product.image});
+                                                                                                                         ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) }
+{ time: [34m07-05-2022 21:42:15[39m level: [31merror[39m message: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:18:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:5:22) stack: Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\routes\product.route.js:18:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\middleware&route.js:5:22) }
