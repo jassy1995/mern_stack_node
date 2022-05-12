@@ -1,7 +1,6 @@
 const User = require("../models/user.model");
 const bcrypt = require("bcryptjs");
 const { generateToken } = require("../util/scripts/jwt");
-const e = require("express");
 
 exports.createUser = async (req, res, next) => {
   const newUser = new User({
