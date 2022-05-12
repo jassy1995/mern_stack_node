@@ -1,341 +1,35 @@
-{ time: [34m12-03-2022 18:39:54[39m level: [31merror[39m message: Cannot read property 'id' of undefinedCannot read property 'id' of undefined stack: TypeError: Cannot read property 'id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:41:14[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:43:02[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:43:51[39m level: [31merror[39m message: erro is not definederro is not defined stack: ReferenceError: erro is not defined
-    at exports.loginUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:23:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:47:12[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:51:09[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 18:51:46[39m level: [31merror[39m message: Cannot read property '_id' of undefinedCannot read property '_id' of undefined stack: TypeError: Cannot read property '_id' of undefined
-    at exports.getCurrentUser (C:\MOSH\NODEJS\project\controllers\user.controller.js:60:21)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m12-03-2022 21:50:58[39m level: [31merror[39m message: Cannot read property 'id' of undefinedCannot read property 'id' of undefined stack: TypeError: Cannot read property 'id' of undefined
-    at exports.getMessage (C:\MOSH\NODEJS\project\controllers\admin.controller.js:4:35)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:137:13)
-    at Route.dispatch (C:\MOSH\NODEJS\project\node_modules\express\lib\router\route.js:112:3)
-    at C:\MOSH\NODEJS\project\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\MOSH\NODEJS\project\node_modules\express\lib\router\layer.js:95:5)
-    at C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:281:22
-    at Function.process_params (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:341:12)
-    at next (C:\MOSH\NODEJS\project\node_modules\express\lib\router\index.js:275:10) }
-{ time: [34m02-05-2022 20:09:30[39m level: [31merror[39m message: generateToken is not a functiongenerateToken is not a function stack: TypeError: generateToken is not a function
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:10:59[39m level: [31merror[39m message: generateToken is not a functiongenerateToken is not a function stack: TypeError: generateToken is not a function
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:15:49[39m level: [31merror[39m message: jwt is not definedjwt is not defined stack: ReferenceError: jwt is not defined
-    at generateToken (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\scripts\jwt.js:3:3)
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:17:33[39m level: [31merror[39m message: secretOrPrivateKey must have a valuesecretOrPrivateKey must have a value stack: Error: secretOrPrivateKey must have a value
-    at Object.module.exports [as sign] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\jsonwebtoken\sign.js:107:20)
-    at generateToken (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\scripts\jwt.js:4:14)
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:18:36[39m level: [31merror[39m message: secretOrPrivateKey must have a valuesecretOrPrivateKey must have a value stack: Error: secretOrPrivateKey must have a value
-    at Object.module.exports [as sign] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\jsonwebtoken\sign.js:107:20)
-    at generateToken (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\scripts\jwt.js:4:14)
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:18:44[39m level: [31merror[39m message: secretOrPrivateKey must have a valuesecretOrPrivateKey must have a value stack: Error: secretOrPrivateKey must have a value
-    at Object.module.exports [as sign] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\jsonwebtoken\sign.js:107:20)
-    at generateToken (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\scripts\jwt.js:4:14)
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m02-05-2022 20:22:19[39m level: [31merror[39m message: secretOrPrivateKey must have a valuesecretOrPrivateKey must have a value stack: Error: secretOrPrivateKey must have a value
-    at Object.module.exports [as sign] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\jsonwebtoken\sign.js:107:20)
-    at generateToken (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\util\scripts\jwt.js:4:14)
-    at exports.signInUser (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\user.controller.js:34:16)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m03-05-2022 08:18:22[39m level: [31merror[39m message: Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required.Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required. stack: ValidationError: Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at EmbeddedDocument.Subdocument.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\subdocument.js:213:12)
-    at EmbeddedDocument.$set (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:1448:12)
-    at EmbeddedDocument.$set (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:1141:16)
-    at EmbeddedDocument.Document (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:161:12)
-    at EmbeddedDocument.Subdocument (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\subdocument.js:31:12)
-    at EmbeddedDocument.ArraySubdocument [as constructor] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\ArraySubdocument.js:34:15)
-    at new EmbeddedDocument (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schema\documentarray.js:116:17)
-    at DocumentArrayPath.cast (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schema\documentarray.js:476:22)
-    at DocumentArrayPath.SchemaType.applySetters (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1179:12) }
-{ time: [34m03-05-2022 08:22:43[39m level: [31merror[39m message: Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required.Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required. stack: ValidationError: Order validation failed: orderItems.0.product: Cast to ObjectId failed for value "4" (type number) at path "product", orderItems.0._id: Cast to ObjectId failed for value "4" (type number) at path "_id", orderItems.1.product: Cast to ObjectId failed for value "6" (type number) at path "product", orderItems.1._id: Cast to ObjectId failed for value "6" (type number) at path "_id", orderItems.0.slug: Path `slug` is required., orderItems.1.slug: Path `slug` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at EmbeddedDocument.Subdocument.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\subdocument.js:213:12)
-    at EmbeddedDocument.$set (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:1448:12)
-    at EmbeddedDocument.$set (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:1141:16)
-    at EmbeddedDocument.Document (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:161:12)
-    at EmbeddedDocument.Subdocument (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\subdocument.js:31:12)
-    at EmbeddedDocument.ArraySubdocument [as constructor] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\types\ArraySubdocument.js:34:15)
-    at new EmbeddedDocument (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schema\documentarray.js:116:17)
-    at DocumentArrayPath.cast (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schema\documentarray.js:476:22)
-    at DocumentArrayPath.SchemaType.applySetters (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1179:12) }
-{ time: [34m03-05-2022 12:05:22[39m level: [31merror[39m message: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order" stack: CastError: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"
-    at model.Query.exec (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4650:21)
-    at model.Query.Query.then (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4749:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m03-05-2022 12:07:03[39m level: [31merror[39m message: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order" stack: CastError: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"
-    at model.Query.exec (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4650:21)
-    at model.Query.Query.then (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4749:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m03-05-2022 12:08:55[39m level: [31merror[39m message: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order" stack: CastError: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"
-    at model.Query.exec (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4650:21)
-    at model.Query.Query.then (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4749:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m03-05-2022 12:12:32[39m level: [31merror[39m message: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order" stack: CastError: Cast to ObjectId failed for value "mine" (type string) at path "_id" for model "Order"
-    at model.Query.exec (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4650:21)
-    at model.Query.Query.then (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\query.js:4749:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m03-05-2022 13:27:57[39m level: [31merror[39m message: ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html'ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html' stack: Error: ENOENT: no such file or directory, stat 'C:\CREDITCLAN\MY_PROJECT\mern_stack\server\client\build\index.html' }
-{ time: [34m05-05-2022 11:51:32[39m level: [31merror[39m message: User is not definedUser is not defined stack: ReferenceError: User is not defined
-    at exports.productSummary (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\order.controller.js:66:17)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m05-05-2022 11:52:16[39m level: [31merror[39m message: User is not definedUser is not defined stack: ReferenceError: User is not defined
-    at exports.productSummary (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\order.controller.js:66:17)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m05-05-2022 11:53:44[39m level: [31merror[39m message: Product is not definedProduct is not defined stack: ReferenceError: Product is not defined
-    at exports.productSummary (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\order.controller.js:86:29)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m06-05-2022 10:17:23[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m08-05-2022 20:23:00[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 20:26:52[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 20:40:12[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 20:47:17[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 20:48:37[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 20:50:03[39m level: [31merror[39m message: Missing required parameter - public_id stack: undefined }
+{ time: [34m08-05-2022 21:08:40[39m level: [31merror[39m message: undefined stack: undefined }
+{ time: [34m12-05-2022 12:44:33[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m06-05-2022 10:17:33[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:45:01[39m level: [31merror[39m message: Operation `orders.findOne()` buffering timed out after 10000msOperation `orders.findOne()` buffering timed out after 10000ms stack: MongooseError: Operation `orders.findOne()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m06-05-2022 10:17:43[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:45:01[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m07-05-2022 08:59:29[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:45:11[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m07-05-2022 08:59:39[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:46:22[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m07-05-2022 09:00:19[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:46:50[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m07-05-2022 09:00:30[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
+{ time: [34m12-05-2022 12:46:55[39m level: [31merror[39m message: Operation `products.distinct()` buffering timed out after 10000msOperation `products.distinct()` buffering timed out after 10000ms stack: MongooseError: Operation `products.distinct()` buffering timed out after 10000ms
     at Timeout.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7) }
-{ time: [34m07-05-2022 09:22:17[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 09:38:00[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 09:40:09[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 09:41:29[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 15:32:56[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 15:34:01[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 15:34:11[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 15:35:33[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:14)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 16:07:20[39m level: [31merror[39m message: Invalid transformation component - product-images stack: undefined }
-{ time: [34m07-05-2022 16:09:32[39m level: [31merror[39m message: Invalid transformation parameter - product stack: undefined }
-{ time: [34m07-05-2022 16:24:21[39m level: [31merror[39m message: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required. stack: ValidationError: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2727:17
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1323:9
-    at processTicksAndRejections (internal/process/task_queues.js:75:11) }
-{ time: [34m07-05-2022 16:26:34[39m level: [31merror[39m message: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required. stack: ValidationError: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2727:17
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1323:9
-    at processTicksAndRejections (internal/process/task_queues.js:75:11) }
-{ time: [34m07-05-2022 16:29:56[39m level: [31merror[39m message: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required. stack: ValidationError: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2727:17
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1323:9
-    at processTicksAndRejections (internal/process/task_queues.js:75:11) }
-{ time: [34m07-05-2022 16:30:47[39m level: [31merror[39m message: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required. stack: ValidationError: Product validation failed: brand: Path `brand` is required., category: Path `category` is required., description: Path `description` is required., price: Path `price` is required., count: Path `count` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2727:17
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1323:9
-    at processTicksAndRejections (internal/process/task_queues.js:75:11) }
-{ time: [34m07-05-2022 18:07:05[39m level: [31merror[39m message: Product validation failed: brand: Path `brand` is required., category: Path `category` is required.Product validation failed: brand: Path `brand` is required., category: Path `category` is required. stack: ValidationError: Product validation failed: brand: Path `brand` is required., category: Path `category` is required.
-    at model.Document.invalidate (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2938:32)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\document.js:2727:17
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\mongoose\lib\schematype.js:1323:9
-    at processTicksAndRejections (internal/process/task_queues.js:75:11) }
-{ time: [34m07-05-2022 18:15:49[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:7:60)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m07-05-2022 20:28:34[39m level: [31merror[39m message: index.addObject is not a functionindex.addObject is not a function stack: TypeError: index.addObject is not a function
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:31:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m07-05-2022 20:32:52[39m level: [31merror[39m message: index.addObject is not a functionindex.addObject is not a function stack: TypeError: index.addObject is not a function
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:32:15)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5) }
-{ time: [34m07-05-2022 20:38:56[39m level: [31merror[39m message: All objects must have an unique objectID (like a primary key) to be valid. Algolia is also able to generate objectIDs automatically but *it's not recommended*. To do it, use the `{'autoGenerateObjectIDIfNotExist': true}` option. stack: undefined }
-{ time: [34m08-05-2022 09:43:02[39m level: [31merror[39m message: Cannot read property 'path' of undefinedCannot read property 'path' of undefined stack: TypeError: Cannot read property 'path' of undefined
-    at exports.createProduct (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\controllers\product.controller.js:14:60)
-    at C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express-async-errors\index.js:17:20
-    at Layer.handle [as handle_request] (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\layer.js:95:5)
-    at next (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\express\lib\router\route.js:137:13)
-    at Array.<anonymous> (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\multer\lib\make-middleware.js:53:37)
-    at listener (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:169:15)
-    at onFinish (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\on-finished\index.js:100:5)
-    at callback (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:55:10)
-    at IncomingMessage.onevent (C:\CREDITCLAN\MY_PROJECT\mern_stack\server\node_modules\ee-first\index.js:93:5)
-    at IncomingMessage.emit (events.js:327:22) }
-{ time: [34m08-05-2022 10:10:11[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }
-{ time: [34m08-05-2022 10:12:25[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }
-{ time: [34m08-05-2022 10:14:25[39m level: [31merror[39m message: Missing required parameter - file stack: undefined }

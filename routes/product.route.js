@@ -21,6 +21,8 @@ router.put(
   upload.single("image"),
   controller.updateProduct
 );
+router.delete("/:id", [isAuth, isAdmin], controller.deleteProduct);
+router.post("/:id/reviews", isAuth, controller.productReview);
 router.get("/:id", controller.productById);
 
 module.exports = router;

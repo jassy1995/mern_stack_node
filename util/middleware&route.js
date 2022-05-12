@@ -6,13 +6,13 @@ const productRoute = require("../routes/product.route");
 const userRoute = require("../routes/user.route");
 const orderRoute = require("../routes/order.route");
 const error = require("../middleware/error");
-const clientKey = require("../middleware/clientkey");
+const clientKey = require("../routes/client-key.route");
 
 module.exports = function (app) {
   app.use(cors());
   app.use(express.urlencoded({ extended: true }));
   app.use(express.json());
-  app.use("/api/keys/paypal", clientKey);
+  app.use("/api/keys", clientKey);
   app.use("/api/products", productRoute);
   app.use("/api/users", userRoute);
   app.use("/api/orders", orderRoute);
